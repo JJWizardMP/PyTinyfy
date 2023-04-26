@@ -66,4 +66,4 @@ PyTinyfy is ideal for web developers and designers who want to improve the perfo
 
 ## License
 
-This script is licensed under the MIT License. See LICENSE file for details.
+This script is licensed under GPL-2.0 License. See LICENSE file for details.
