@@ -1,0 +1,37 @@
+# Ignore Git and version control
+.git
+.gitignore
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore all __pycache__ directories
+__pycache__
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment files
+.env
+.venv
+venv/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore other non-essential files
+*.md
+LICENSE
+.dockerignore
+Dockerfile
+*.yml
+*.yaml
