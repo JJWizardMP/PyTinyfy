@@ -7,3 +7,10 @@ services:
       - .:/usr/src/app
     ports:
       - "8000:8000"
+    environment:
+      - REGION=${REGION}
+      - ENDPOINT=${ENDPOINT}
+      - ACCESS_KEY=${ACCESS_KEY}
+      - SECRET_KEY=${SECRET_KEY}
+      - BUCKET_NAME=${BUCKET_NAME}
+      - TINYPNG_API_KEY=${TINYPNG_API_KEY}
